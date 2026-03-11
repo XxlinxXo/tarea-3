@@ -1,0 +1,146 @@
+*{
+    padding:10px;
+    margin:5px;
+    
+}
+body {
+    background: red;
+}
+.padre{
+    display:grid;
+    grid-template-areas:"titulo titulo titulo "
+                         "caja1   caja2 caja3"
+                        
+                         "caja4  caja4 caja5"
+                         "caja4  caja4  caja6"
+                         "caja4  caja4 caja7"
+                         "caja8 caja9 caja10"
+                         "caja8 caja11 caja10";
+}
+.titulo{
+    background: yellow;
+    grid-area:titulo;
+}
+.caja1{
+    background: yellow;
+    grid-area:caja1;
+}
+.caja2{
+    background: yellow;
+    grid-area :caja2;
+}
+.caja3{
+    background: yellow;
+    grid-area :caja3;
+}
+.caja4{
+    background: yellow;
+    grid-area :caja4;
+    
+}
+.caja5{
+    background: yellow;
+    grid-area :caja5;
+}
+.caja6{
+    background: yellow;
+    grid-area :caja6;
+}
+.caja7{
+    background: yellow;
+    grid-area :caja7;
+}
+.caja8{
+    background: yellow;
+    grid-area :caja8;
+}
+.caja9{
+    background: yellow;
+    grid-area :caja9;
+}
+.caja10{
+    background: yellow;
+    grid-area :caja10;
+}
+.caja11{
+    background: yellow;
+    grid-area :caja11;
+}
+.oso{
+    position: relative;
+    width:200px;
+    height:200px;
+    margin :auto;
+    text-align:center;
+}
+
+/* cabeza */
+.cabeza{
+    width:70px;
+    height:70px;
+    background:lightblue;
+    border-radius:50%;
+    position:absolute;
+    
+    left:60px;
+    gap:1px;
+}
+
+/* cuerpo */
+.cuerpo{
+    width:100px;
+    height:100px;
+    background:lightblue;
+    border-radius:50%;
+    position:absolute;
+    top:80px;
+    left:40px;
+}
+
+/* orejas */
+.oreja{
+    width:20px;
+    height:20px;
+    background:orange;
+    border-radius:50%;
+    position:absolute;
+}
+
+.oreja1{
+    top:0;
+    left:40px;
+}
+
+.oreja2{
+    top:0;
+    left:130px;
+}
+
+/* ojos */
+.ojo{
+    width:5px;
+    height:5px;
+    background:black;
+    border-radius:50%;
+    position:absolute;
+    top:25px;
+}
+
+.ojo1{
+    left:10px;
+}
+
+.ojo2{
+    left:50px;
+}
+
+/* nariz */
+.nariz{
+    width:4px;
+    height:4px;
+    background:pink;
+    border-radius:50%;
+    position:absolute;
+    top:40px;
+    left:30px;
+}
