@@ -74,7 +74,7 @@ body {
     text-align:center;
 }
 
-/* cabeza */
+
 .cabeza{
     width:70px;
     height:70px;
@@ -86,7 +86,7 @@ body {
     gap:1px;
 }
 
-/* cuerpo */
+
 .cuerpo{
     width:100px;
     height:100px;
@@ -97,7 +97,7 @@ body {
     left:40px;
 }
 
-/* orejas */
+
 .oreja{
     width:20px;
     height:20px;
@@ -134,7 +134,7 @@ body {
     left:50px;
 }
 
-/* nariz */
+
 .nariz{
     width:4px;
     height:4px;
